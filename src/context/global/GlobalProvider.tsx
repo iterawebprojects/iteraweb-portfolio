@@ -8,53 +8,39 @@ interface Props {
 const GlobalProvider = ({ children }: Props): JSX.Element => {
   const data: IGlobalContext = {
     header: {
-      email: 'agency@email.com'
+      email: 'iterawebservices@gmail.com',
     },
     hero: {
-      title: 'Agency',
-      description: 'We’re an award winning design agency specialised in art direction, 3D, visual identity and web design.',
+      title: 'Iteraweb',
+      description: 'Unleash Your Digital Potential.  Empowering Businesses with Results-Driven Web Development',
       projects: [
         {
           id: 1,
-          image: 'https://res.cloudinary.com/dos3i5jqy/image/upload/v1680190994/devagency/images/hero-project-1_xcbsif.png',
-          title: 'Sofia',
-          category: 'Web Design - Branding',
-          to: 'sofia'
+          image: 'https://res.cloudinary.com/di2cxicmm/image/upload/v1685569980/portfolio/flyers/apollonftflyer_yjqihv.webp',
+          title: 'Animated NFT Galery',
+          category: 'Website - Modern Design',
+          to: 'nft-galery'
         },
         {
           id: 2,
-          image: 'https://res.cloudinary.com/dos3i5jqy/image/upload/v1680190994/devagency/images/hero-project-2_unswng.png',
-          title: 'Scentia',
-          category: 'Art Direction - 3D',
-          to: 'scentia'
+          image: 'https://res.cloudinary.com/di2cxicmm/image/upload/v1685569980/portfolio/flyers/jordanstoreflyer_wjb9vc.webp',
+          title: 'Jordan Ecomerce',
+          category: 'Website - Store',
+          to: 'jordan-ecomerce'
         },
         {
           id: 3,
-          image: 'https://res.cloudinary.com/dos3i5jqy/image/upload/v1680190994/devagency/images/hero-project-3_xshjev.png',
-          title: 'Yogo',
-          category: 'Web Design - 3D',
-          to: 'yogo'
+          image: 'https://res.cloudinary.com/di2cxicmm/image/upload/v1685569980/portfolio/flyers/chatboxflyer_anrzst.webp',
+          title: 'chatbox',
+          category: 'Web App - Landingpage',
+          to: 'chatbox'
         },
         {
           id: 4,
-          image: 'https://res.cloudinary.com/dos3i5jqy/image/upload/v1680190994/devagency/images/hero-project-4_ftq9dn.png',
-          title: 'Fin',
-          category: 'Art Direction',
-          to: 'fin'
-        },
-        {
-          id: 5,
-          image: 'https://res.cloudinary.com/dos3i5jqy/image/upload/v1680190994/devagency/images/hero-project-5_vwdamb.png',
-          title: 'M&P',
-          category: 'Art Direction - Branding - 3D',
-          to: 'm&p'
-        },
-        {
-          id: 6,
-          image: 'https://res.cloudinary.com/dos3i5jqy/image/upload/v1680190995/devagency/images/hero-project-6_t69rgp.png',
-          title: 'Sen Bros',
-          category: 'Branding - 3D',
-          to: 'senbros'
+          image: 'https://res.cloudinary.com/di2cxicmm/image/upload/v1685569980/portfolio/flyers/bliztflyer_h1ialg.webp',
+          title: 'BLITZ',
+          category: 'Website - Art',
+          to: 'blitz'
         }
       ]
     },
@@ -91,32 +77,37 @@ const GlobalProvider = ({ children }: Props): JSX.Element => {
       description: 'We are a small team of innovators, designers, artists, and creators, who are exploring visual ways to convey ideas. We are focusing on the intersection of artistic exploration and design — specialised in art direction, visual identity, 3D and web design.'
     },
     careers: {
-      title: 'Careers',
+      title: 'Our Team',
       items: [
         {
           id: 1,
-          job: 'Project Manager',
-          country: 'Amsterdam'
+          job: 'Tech Lead',
+          country: 'Argentina'
         },
         {
           id: 2,
-          job: 'Brand Designer',
-          country: 'Remote'
+          job: 'UX / UI Designer',
+          country: 'Argentina'
         },
         {
           id: 3,
           job: 'Frontend Developer',
-          country: 'Remote'
+          country: 'Argentina'
         },
         {
           id: 4,
-          job: 'Designer UI',
-          country: 'Spain'
+          job: 'Backend Developer',
+          country: 'Colombia'
+        }, 
+        {
+          id: 5,
+          job: 'Product Manager',
+          country: 'Argentina'
         }
       ]
     },
     social: {
-      email: 'agency@gmail.com',
+      email: 'iterawebservices@gmail.com',
       networks: [
         {
           id: 1,

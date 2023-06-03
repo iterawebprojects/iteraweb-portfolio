@@ -12,34 +12,36 @@ const GlobalProvider = ({ children }: Props): JSX.Element => {
     },
     hero: {
       title: 'Iteraweb',
-      description: 'Unleash Your Digital Potential.  Empowering Businesses with Results-Driven Web Development',
+      description: 
+      `Unleash Your Digital Potential: 
+      Empowering Businesses with Results-Driven Web Development`,
       projects: [
         {
           id: 1,
           image: 'https://res.cloudinary.com/di2cxicmm/image/upload/v1685569980/portfolio/flyers/apollonftflyer_yjqihv.webp',
           title: 'Animated NFT Galery',
-          category: 'Website - Modern Design',
+          category: 'Website - Landing Page',
           to: 'nft-galery'
         },
         {
           id: 2,
           image: 'https://res.cloudinary.com/di2cxicmm/image/upload/v1685569980/portfolio/flyers/jordanstoreflyer_wjb9vc.webp',
-          title: 'Jordan Ecomerce',
-          category: 'Website - Store',
+          title: 'Jordan Store',
+          category: 'Website - Ecommerce',
           to: 'jordan-ecomerce'
         },
         {
           id: 3,
           image: 'https://res.cloudinary.com/di2cxicmm/image/upload/v1685569980/portfolio/flyers/chatboxflyer_anrzst.webp',
-          title: 'chatbox',
-          category: 'Web App - Landingpage',
+          title: 'Chatbox',
+          category: 'Web App - Landing Page',
           to: 'chatbox'
         },
         {
           id: 4,
           image: 'https://res.cloudinary.com/di2cxicmm/image/upload/v1685569980/portfolio/flyers/bliztflyer_h1ialg.webp',
-          title: 'BLITZ',
-          category: 'Website - Art',
+          title: 'Blitz',
+          category: 'Website - Landing Page',
           to: 'blitz'
         }
       ]
@@ -52,29 +54,43 @@ const GlobalProvider = ({ children }: Props): JSX.Element => {
       items: [
         {
           id: 1,
-          title: 'Art Direction',
-          description: 'We help with the creation and development of online advertising ideas, with particular focus on their visual appearance.'
+          title: 'Website Development',
+          description: 'Unleash the Power of Creativity - Let our expert team craft visually stunning and functional websites tailored to your brand and business goals.'
         },
         {
           id: 2,
-          title: 'Branding',
-          description: 'We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors.'
+          title: 'Responsive Web Design',
+          description: 'Seamlessly Engage Your Audience - We create mobile-friendly websites that adapt flawlessly to every screen size, ensuring an exceptional user experience across all devices.'
         },
         {
           id: 3,
-          title: 'Web Desing',
-          description: 'We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel.'
+          title: 'E-commerce Development',
+          description: 'Unlock Your Online Potential - From secure payment gateways to user-friendly shopping carts, we build robust e-commerce platforms that drive sales and maximize conversions.'
         },
         {
           id: 4,
-          title: '3D Desing',
-          description: 'We combine creative design and technical skills to build striking 3D visualisations that bring your project to life.'
+          title: 'UI/UX Design',
+          description: 'Elevate User Experiences - Our skilled designers combine aesthetics with intuitive interfaces, creating captivating user experiences that keep visitors engaged and coming back for more.'
+        },
+        {
+          id: 5,
+          title: 'Search Engine Optimization (SEO)',
+          description: 'Rise Above the Competition - Dominate search engine rankings with our strategic SEO techniques, optimizing your website for maximum visibility and driving targeted organic traffic.'
+        }, 
+        {
+          id: 6,
+          title: 'Ongoing Maintenance and Support',
+          description: 'We provide comprehensive technical assistance and support to ensure the smooth and uninterrupted operation of your website, allowing you to focus on what truly matters - growing your business'
         }
       ]
     },
     about: {
       title: 'About',
-      description: 'We are a small team of innovators, designers, artists, and creators, who are exploring visual ways to convey ideas. We are focusing on the intersection of artistic exploration and design — specialised in art direction, visual identity, 3D and web design.'
+      description: `At Iteraweb, we take immense pride in our web development portfolio. Our unwavering commitment to customer satisfaction drives us to deliver exceptional results with every project. 
+      
+      With a passion for perfectionism, we meticulously craft websites that not only meet your expectations but exceed them. From the initial concept to the final launch, we pour our expertise, creativity, and attention to detail into every aspect of our work. 
+      
+      Trust us to bring your vision to life and create digital experiences that leave a lasting impression.`
     },
     careers: {
       title: 'Our Team',
@@ -112,7 +128,7 @@ const GlobalProvider = ({ children }: Props): JSX.Element => {
         {
           id: 1,
           social: 'Instagram',
-          to: 'https://www.instagram.com/davidmedev/'
+          to: 'https://www.instagram.com/iteraweb/'
         },
         {
           id: 2,
@@ -121,18 +137,18 @@ const GlobalProvider = ({ children }: Props): JSX.Element => {
         },
         {
           id: 3,
-          social: 'Behance',
-          to: 'https://www.behance.net/'
+          social: 'Twitter',
+          to: 'https://twitter.com/iterawebsocial'
         },
         {
           id: 4,
           social: 'Tiktok',
-          to: 'https://www.tiktok.com/'
+          to: 'https://www.tiktok.com/@iteraweboficial'
         }
       ]
     },
     footer: {
-      copyright: 'Agency © 2023'
+      copyright: 'IteraWeb © 2023'
     }
   }
   return <GlobalContext.Provider value={data}>{children}</GlobalContext.Provider>

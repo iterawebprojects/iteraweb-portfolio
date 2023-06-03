@@ -15,6 +15,7 @@ const AboutStyled = styled('section')`
 const AboutDescription = styled('p')`
   color: var(--text-two);
   font-size: clamp(1rem, 1.25vw, 2.5rem);
+  white-space: pre-line;
 `
 
 const About = (): JSX.Element => {

@@ -10,7 +10,7 @@ const HomePage = (): JSX.Element => {
   return (
     <MainStyled>
       <Hero />
-      <Clients />
+      {/* <Clients /> */}
       <Services />
       <About />
       <Careers />

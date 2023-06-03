@@ -13,16 +13,16 @@ const SocialStyled = styled('section')`
  }
 `
 const SocialEmail = styled(Link)`
-  font-size: clamp(1.5rem, 2.5vw, 5rem);
+  font-size: clamp(1rem, 2.5vw, 5rem);
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
   gap: clamp(.5rem, .5vw, 1rem);
   transition: color 250ms;
 
   & svg {
     fill: var(--i-component-one);
-    width: clamp(1.25rem, 1.5vw, 2rem);
+    width: clamp(1rem, 1.5vw, 2rem);
     transform: rotate(-45deg);
     transition: fill 250ms;
   }

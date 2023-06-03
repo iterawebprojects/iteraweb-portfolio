@@ -13,13 +13,18 @@ const HeaderStyled = styled('header')`
   background-color: var(--background-one);
   z-index: 1;
 
+  @media screen and (max-width: 29.75rem) {
+     flex-direction: column;
+     gap: 1rem;
+  }
+
   & svg {
     width: clamp(1.5rem, 2vw, 4rem);
     fill: var(--i-component-one);
   }
 `
 const HeadingRedirect = styled(Link)`
-  font-size: clamp(1.25rem, 1.25vw, 2.5rem);
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -30,7 +35,7 @@ const HeadingRedirect = styled(Link)`
   
   & svg {
     fill: var(--i-component-one);
-    width: clamp(1.25rem, 1.5vw, 2rem);
+    width: clamp(1rem, 1.5vw, 2rem);
     transform: rotate(-45deg);
     transition: fill 250ms;
   }

@@ -69,4 +69,34 @@ export const attributes = css`
   [data-delay="1000"]{
     animation-delay: 1000ms;
   }
+  [data-delay="1050"]{
+    animation-delay: 1050ms;
+  }
+  [data-delay="1100"]{
+    animation-delay: 1100ms;
+  }
+  [data-delay="1150"]{
+    animation-delay: 1150ms;
+  }
+  [data-delay="1200"]{
+    animation-delay: 1200ms;
+  }
+  [data-delay="1250"]{
+    animation-delay: 1250ms;
+  }
+  [data-delay="1300"]{
+    animation-delay: 1300ms;
+  }
+  [data-delay="1350"]{
+    animation-delay: 1350ms;
+  }
+  [data-delay="1400"]{
+    animation-delay: 1400ms;
+  }
+  [data-delay="1450"]{
+    animation-delay: 1450ms;
+  }
+  [data-delay="1500"]{
+    animation-delay: 1500ms;
+  }
 `

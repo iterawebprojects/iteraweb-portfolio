@@ -24,6 +24,7 @@ const HeroHeading = styled('h1')`
 `
 const HeroParagraph = styled('p')`
   font-size: clamp(1.25rem, 1.75vw, 3.5rem);
+  white-space: pre-line;
   
   @media screen and (max-width: 49.75rem) {
     padding: 0 0 6rem 0;

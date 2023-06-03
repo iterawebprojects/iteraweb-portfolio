@@ -6,16 +6,23 @@ const HeroProjectStyled = styled('article')`
   justify-content: center;
   align-items: flex-start;
   gap: clamp(1rem, 1vw, 2rem);
-`
+  `
+
 const HeroProjectRedirect = styled('a')`
+  overflow: hidden;
   width: 100%;
+  border-radius: 0.75rem;
 `
 const HeroProjectImage = styled('img')`
-  aspect-ratio: 1;
-  transition: opacity 500ms;
+  aspect-ratio: 2 / 1;
+  object-fit: contain;
+  transition: opacity 500ms, transform 500ms ease-in-out;
   border-radius: clamp(1rem, 1vw, 2rem);
+  transform: scale(1.25);
+  
 
-  :hover {
+  &:hover {
+    transform: scale(1);
     opacity: 0.5;
   }
 `

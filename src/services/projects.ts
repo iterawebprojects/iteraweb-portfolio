@@ -2,14 +2,19 @@ import { Project } from '@/models/project.models'
 
 export const projects: Project[] = [
   {
-    tag: 'sofia',
+    tag: 'nft-galery',
     id: 1,
-    title: 'Sofia',
-    category: 'Web Desing - Branding',
-    description: "Our task was to produce a mood video for the launch that wouldn't reveal the items from the collection but capture their essence—majestic light patterns reflected on glass, plastic and metal.",
-    videoURL: 'https://res.cloudinary.com/dos3i5jqy/video/upload/v1681232946/devagency/videos/project1_iuoy8d.mp4',
+    title: 'NFT Galery',
+    category: 'Website - Modern Design',
+    description: "Discover a curated collection of captivating NFT artworks in our modern and responsive gallery. Immerse yourself in the world of digital art and explore unique pieces that push the boundaries of creativity.",
+    videoURL: 'https://res.cloudinary.com/di2cxicmm/video/upload/v1685566710/video%20projects/ab4udq1czhbjfpwsokjh.mp4',
     firstTitleTarget: 'Refractions & reflections',
-    firstDescriptionTarget: "Our task was to produce a mood video for the launch that wouldn't reveal the items from the collection but capture their essence—majestic light patterns reflected on glass, plastic and metal.",
+    firstDescriptionTarget: 
+    `Showcasing diverse NFT artworks and celebrating creativity. 
+    
+    Empowering artists by providing a direct platform for sales. Creating an inclusive and accessible space for art enthusiasts. 
+    
+    Fostering collaboration, innovation, and trust within the NFT community. Offering a modern and visually appealing design that enhances the viewing experience and reflects the cutting-edge nature of digital art.`,
     firstPhotosURL: [
       {
         id: 1,
